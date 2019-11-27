@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Lets Chat</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
+
+    <style>
+        h1{
+            text-align: center;
+            padding-bottom: 50px;
+            padding-top: 100px;
+            font-family: cursive;
+        }
+        .hell{
+            padding-top: 10px;
+        }
+        body{
+            background:aquamarine;
+        }
+        .signu{
+            width : 40%;
+        }
+        .btn{
+            margin-bottom: 10%;
+        }
+    </style>
+</head>
+<body>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+        <a class="navbar-brand" href="project_startup_page.html">Koffee</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="about.html">About<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link " href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <ul class = "navbar-nav ml-auto">
+                    <li class = "nav-link nav-item active"><a href="singup.html"><i class="far fa-address-book"></i>signup <span class = "sr-only"></span></a></li>
+                    <li class = "nav-link nav-item active"><a href="login.html"><i class="far fa-user"></i>login <span class = "sr-only"></span></a></li>
+                </ul>
+                     
+                    </div>
+                  </nav>
+                </div>  
+    <div class = "container signu">
+    <h1 class = "text-info">REGISTER</h1>
+    <form>
+        <div class="form-group">
+        <LABel for = "name">  First Name</LABel>
+        <input class="form-control" id ="name" type="text" placeholder="john" required>
+        <LABel for = "Lname" class = "hell">  Last Name</LABel>
+        <input class="form-control" id ="Lname" type="text" placeholder="Smith" required>
+    </div>
+    <div class="form-group">
+        <label for="rd">Male</label>
+        <input name ="ch" type="radio" id="rd">
+        <label for="rd">Female</label>
+        <input name ="ch" type="radio" id="rd">
+        <label for="rd">Other</label>
+        <input name ="ch" type="radio" id="rd">
+    </div>
+
+    <div class="form-group">
+        <label for="cal">Birthday:</label>
+        <select>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+
+        </select>
+        <select>
+                <option>january</option>
+                <option>february</option>
+                <option>march</option>
+                <option>april</option>
+                <option>may</option>
+                <option>june</option>
+    
+            </select>
+            <select>
+                    <option>2015</option>
+                    <option>2016</option>
+                    <option>2017</option>
+                    <option>2018</option>
+                    <option>2019</option>
+                    <option>2020</option>
+        
+                </select>
+            </div>
+
+    </form>
+
+    <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" pattern =".{5,10}" required title ="password must be 5-10 characters" required> 
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">I agree to the terms and conditions</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+
+          <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script></body>
+        </div>
+</body>
+</html>
